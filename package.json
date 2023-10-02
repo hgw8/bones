@@ -1,0 +1,19 @@
+{
+  "name": "bones",
+  "version": "1.0.0",
+  "description": "node.js IRC bot framework",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.supernets.org/hgw/bones"
+  },
+  "author": "hgw7",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "irc": "^0.5.2"
+  }
+}

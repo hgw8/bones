@@ -1,0 +1,32 @@
+{
+    "irc": {
+        "server": "irc.supernets.org",
+        "port": 6697,
+        "ssl": "true",
+        "channels": [
+            "#5000"
+        ],
+        "nickname": "bones-dev",
+        "username": "bones-dev",
+        "realname": "git.supernets.org/hgw/bones",
+        "autorejoin": "true",
+        "prefix": "!"
+    },
+    "floodprotect": {
+        "flood_protection": "false",
+        "flood_protection_delay": "0",
+        "command_listen_timeout": "2500"
+    },
+    "errorhandling": {
+        "error_logging": "true",
+        "error_channel": "#CHANNELTOSENDERRORSTO",
+        "error_channel_pass": ""
+    },
+    "colours": {
+        "warning": "08",
+        "error": "04"
+    },
+    "misc": {
+        "logging": "true"
+    }
+}
