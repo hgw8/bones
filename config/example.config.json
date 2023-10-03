@@ -24,7 +24,8 @@
     },
     "colours": {
         "warning": "08",
-        "error": "04"
+        "error": "04",
+        "brackets": "15"
     },
     "misc": {
         "logging": "true"
