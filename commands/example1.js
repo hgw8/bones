@@ -1,4 +1,4 @@
-const config = require('../config/default.json')
+const config = require('../config/config.json')
 const { parentPort, workerData } = require('worker_threads');
 const { d1, d2 } = workerData; //Declare all used variables here (if you only pass 1 variable to this command you only really need d1 in here, but it doesnt matter)
 var var1 = d1; // Declaring d1 as var1, just for consistancy with the last file but again, this may not be necessary in all cases.

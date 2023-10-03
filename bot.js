@@ -5,7 +5,7 @@
 //    / /_/ / /_/ / / / /  __(__  ) 
 //   /_.___/\____/_/ /_/\___/____/  
 //                            
-var config = require('./config/default.json');
+var config = require('./config/config.json');
 var irc = require("irc");
 var fs = require("fs");
 const { Worker } = require('worker_threads');
